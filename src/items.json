@@ -1,0 +1,184 @@
+[
+    {
+        "id": 1,
+        "name": "grocery bag",
+        "image": "./images/bag.jpg",
+        "category": "lifestyle",
+        "tags": "shopping, house, to-go, lifestyle, bag, plastic bag, reusable grocery bag",
+        "alternatives": {
+            "zeroWaste": "cotton string bags",
+            "ecoFriendly": "cotton bags, material bags"
+        },
+        "price": "low",
+        "other": ""
+    },
+    {
+        "id": 3,
+        "name": "toothbrush",
+        "image": "./images/toothbrush.jpg",
+        "category": "bathroom, personal care",
+        "tags": "bathroom, body",
+        "alternatives": {
+            "zeroWaste": "bamboo toothbrush",
+            "ecoFriendly": ""
+        },
+        "price": "low",
+        "other": ""
+    },
+    {
+        "id": 4,
+        "name": "cotton pads",
+        "image": "./images/pads.jpg",
+        "category": "bathroom, personal care",
+        "tags": "bathroom, body",
+        "alternatives": {
+            "zeroWaste": "",
+            "ecoFriendly": "organic cotton pad"
+        },
+        "price": "low",
+        "other": ""
+    },
+    {
+        "id": 5,
+        "name": "paper towel",
+        "image": "./images/towel.jpg",
+        "category": "kitchen, house",
+        "tags": "cleaning, kitchen",
+        "alternatives": {
+            "zeroWaste": "",
+            "ecoFriendly": "towel"
+        },
+        "price": "low",
+        "other": ""
+    },
+    {
+        "id": 2,
+        "name": "plastic bottle",
+        "image": "./images/bottle.jpg",
+        "category": "lifestyle",
+        "tags": "lifestyle, water bootle, plastic bottle, stainless steel bottle, light glass bottle",
+        "alternatives": {
+            "zeroWaste": "glass or stainless steel bottle",
+            "ecoFriendly": ""
+        },
+        "price": "medium, high",
+        "other": ""
+    },
+    {
+        "id": 1,
+        "name": "grocery bag",
+        "image": "./images/bag.jpg",
+        "category": "lifestyle",
+        "tags": "shopping, house, to-go, lifestyle, bag, plastic bag, reusable grocery bag",
+        "alternatives": {
+            "zeroWaste": "cotton string bags",
+            "ecoFriendly": "cotton bags, material bags"
+        },
+        "price": "low",
+        "other": ""
+    },
+    {
+        "id": 2,
+        "name": "plastic bottle",
+        "image": "./images/bottle.jpg",
+        "category": "lifestyle",
+        "tags": "lifestyle, water bootle, plastic bottle, stainless steel bottle, light glass bottle",
+        "alternatives": {
+            "zeroWaste": "glass or stainless steel bottle",
+            "ecoFriendly": ""
+        },
+        "price": "medium, high",
+        "other": ""
+    },
+    {
+        "id": 1,
+        "name": "grocery bag",
+        "image": "./images/bag.jpg",
+        "category": "lifestyle",
+        "tags": "shopping, house, to-go, lifestyle, bag, plastic bag, reusable grocery bag",
+        "alternatives": {
+            "zeroWaste": "cotton string bags",
+            "ecoFriendly": "cotton bags, material bags"
+        },
+        "price": "low",
+        "other": ""
+    },
+    {
+        "id": 2,
+        "name": "plastic bottle",
+        "image": "./images/bottle.jpg",
+        "category": "lifestyle",
+        "tags": "lifestyle, water bootle, plastic bottle, stainless steel bottle, light glass bottle",
+        "alternatives": {
+            "zeroWaste": "glass or stainless steel bottle",
+            "ecoFriendly": ""
+        },
+        "price": "medium, high",
+        "other": ""
+    },
+    {
+        "id": 3,
+        "name": "toothbrush",
+        "image": "./images/toothbrush.jpg",
+        "category": "bathroom, personal care",
+        "tags": "bathroom, body",
+        "alternatives": {
+            "zeroWaste": "bamboo toothbrush",
+            "ecoFriendly": ""
+        },
+        "price": "low",
+        "other": ""
+    },
+    {
+        "id": 4,
+        "name": "cotton pads",
+        "image": "./images/pads.jpg",
+        "category": "bathroom, personal care",
+        "tags": "bathroom, body",
+        "alternatives": {
+            "zeroWaste": "",
+            "ecoFriendly": "organic cotton pad"
+        },
+        "price": "low",
+        "other": ""
+    },
+    {
+        "id": 5,
+        "name": "paper towel",
+        "image": "./images/towel.jpg",
+        "category": "kitchen, house",
+        "tags": "cleaning, kitchen",
+        "alternatives": {
+            "zeroWaste": "",
+            "ecoFriendly": "towel"
+        },
+        "price": "low",
+        "other": ""
+    },
+    {
+        "id": 3,
+        "name": "toothbrush",
+        "image": "./images/toothbrush.jpg",
+        "category": "bathroom, personal care",
+        "tags": "bathroom, body",
+        "alternatives": {
+            "zeroWaste": "bamboo toothbrush",
+            "ecoFriendly": ""
+        },
+        "price": "low",
+        "other": ""
+    },
+    {
+        "id": 4,
+        "name": "cotton pads",
+        "image": "./images/pads.jpg",
+        "category": "bathroom, personal care",
+        "tags": "bathroom, body",
+        "alternatives": {
+            "zeroWaste": "",
+            "ecoFriendly": "organic cotton pad"
+        },
+        "price": "low",
+        "other": ""
+    }
+]
