@@ -3,6 +3,7 @@
         "id": 1,
         "name": "grocery bag",
         "image": "./images/bag.jpg",
+        "imageEco": "./images/stringbag.jpg",
         "category": "lifestyle",
         "tags": "shopping, house, to-go, lifestyle, bag, plastic bag, reusable grocery bag",
         "alternatives": {
@@ -16,6 +17,7 @@
         "id": 3,
         "name": "toothbrush",
         "image": "./images/toothbrush.jpg",
+        "imageEco": "./images/bamboobrush.jpg",
         "category": "bathroom, personal care",
         "tags": "bathroom, body",
         "alternatives": {
@@ -29,6 +31,7 @@
         "id": 4,
         "name": "cotton pads",
         "image": "./images/pads.jpg",
+        "imageEco": "null",
         "category": "bathroom, personal care",
         "tags": "bathroom, body",
         "alternatives": {
@@ -42,6 +45,7 @@
         "id": 5,
         "name": "paper towel",
         "image": "./images/towel.jpg",
+        "imageEco": "./images/cottontowel.jpg",
         "category": "kitchen, house",
         "tags": "cleaning, kitchen",
         "alternatives": {
@@ -55,6 +59,7 @@
         "id": 2,
         "name": "plastic bottle",
         "image": "./images/bottle.jpg",
+        "imageEco": "./images/glassbottle.jpg",
         "category": "lifestyle",
         "tags": "lifestyle, water bootle, plastic bottle, stainless steel bottle, light glass bottle",
         "alternatives": {
@@ -65,9 +70,10 @@
         "other": ""
     },
     {
-        "id": 1,
+        "id": 6,
         "name": "grocery bag",
         "image": "./images/bag.jpg",
+        "imageEco": "./images/stringbag.jpg",
         "category": "lifestyle",
         "tags": "shopping, house, to-go, lifestyle, bag, plastic bag, reusable grocery bag",
         "alternatives": {
@@ -78,9 +84,10 @@
         "other": ""
     },
     {
-        "id": 2,
+        "id": 7,
         "name": "plastic bottle",
         "image": "./images/bottle.jpg",
+        "imageEco": "./images/glassbottle.jpg",
         "category": "lifestyle",
         "tags": "lifestyle, water bootle, plastic bottle, stainless steel bottle, light glass bottle",
         "alternatives": {
@@ -91,9 +98,10 @@
         "other": ""
     },
     {
-        "id": 1,
+        "id": 8,
         "name": "grocery bag",
         "image": "./images/bag.jpg",
+        "imageEco": "./images/stringbag.jpg",
         "category": "lifestyle",
         "tags": "shopping, house, to-go, lifestyle, bag, plastic bag, reusable grocery bag",
         "alternatives": {
@@ -104,9 +112,10 @@
         "other": ""
     },
     {
-        "id": 2,
+        "id": 9,
         "name": "plastic bottle",
         "image": "./images/bottle.jpg",
+        "imageEco": "./images/glassbottle.jpg",
         "category": "lifestyle",
         "tags": "lifestyle, water bootle, plastic bottle, stainless steel bottle, light glass bottle",
         "alternatives": {
@@ -117,9 +126,10 @@
         "other": ""
     },
     {
-        "id": 3,
+        "id": 10,
         "name": "toothbrush",
         "image": "./images/toothbrush.jpg",
+        "imageEco": "./images/bamboobrush.jpg",
         "category": "bathroom, personal care",
         "tags": "bathroom, body",
         "alternatives": {
@@ -130,9 +140,10 @@
         "other": ""
     },
     {
-        "id": 4,
+        "id": 11,
         "name": "cotton pads",
         "image": "./images/pads.jpg",
+        "imageEco": "null",
         "category": "bathroom, personal care",
         "tags": "bathroom, body",
         "alternatives": {
@@ -143,9 +154,10 @@
         "other": ""
     },
     {
-        "id": 5,
+        "id": 12,
         "name": "paper towel",
         "image": "./images/towel.jpg",
+        "imageEco": "./images/cottontowel.jpg",
         "category": "kitchen, house",
         "tags": "cleaning, kitchen",
         "alternatives": {
@@ -156,9 +168,10 @@
         "other": ""
     },
     {
-        "id": 3,
+        "id": 13,
         "name": "toothbrush",
         "image": "./images/toothbrush.jpg",
+        "imageEco": "./images/bamboobrush.jpg",
         "category": "bathroom, personal care",
         "tags": "bathroom, body",
         "alternatives": {
@@ -169,9 +182,10 @@
         "other": ""
     },
     {
-        "id": 4,
+        "id": 14,
         "name": "cotton pads",
         "image": "./images/pads.jpg",
+        "imageEco": "null",
         "category": "bathroom, personal care",
         "tags": "bathroom, body",
         "alternatives": {

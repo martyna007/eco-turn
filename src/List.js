@@ -9,18 +9,29 @@ class List extends React.Component {
         super(props);
         this.state = {
             products: [],
-            searchTerm: ''
+            searchTerm: '',
+            isAllOpen: false
         };
         this.searchUpdated = this.searchUpdated.bind(this)
     }
     componentDidMount() {
-        this.setState({
-            products: this.props.products
-        })
+        this.setState({ products: this.props.products })
     }
 
     searchUpdated(term) {
         this.setState({ searchTerm: term })
+    }
+
+    setOpen = (open) => {
+        //open = !open;
+        this.setState({ isAllOpen: !open })
+    }
+    showProperText() {
+        if (!this.state.isAllOpen) {
+            return "Reveal all"
+        } else {
+            return "Hide all"
+        }
     }
 
     render() {
@@ -34,9 +45,12 @@ class List extends React.Component {
                         <Product
                             key={index}
                             product={product}
+                            isAllOpen={this.state.isAllOpen}
                         />
                     )}
-
+                </div>
+                <div className="btn-container">
+                    <div className={"btn" + (this.state.isAllOpen ? " hide" : " ")} onClick={() => this.setOpen(this.state.isAllOpen)}>{this.showProperText()}</div>
                 </div>
             </div>
         )

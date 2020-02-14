@@ -46,6 +46,9 @@ code {
   align-items: flex-end;
   padding: 12px 0;
 }
+.product-container .back .name {
+  color:grey;
+}
 
 .front, .back {
   -webkit-backface-visibility: hidden;
@@ -75,6 +78,9 @@ code {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
   background: #68e157;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .product-container:hover .flipper, .product-container.open .flipper {
@@ -92,4 +98,25 @@ code {
   outline: none;
   border: none;
   box-shadow: 2px 4px 6px 0 rgba(0,0,0,0.1);
+}
+.btn {
+  color:white;
+  background-color:#68e157;
+  display: inline-flex;
+  padding: 10px;
+  border-radius: 50%;
+  height: 62px;
+  width: 62px;
+  justify-content: center;
+  align-items: center;
+  text-transform: lowercase;
+  line-height: 1.2;
+  cursor: pointer;
+  box-shadow: 2px 4px 6px 0 rgba(0,0,0,0.1);
+  -webkit-transition: 0.6s;
+  transition: 0.6s;
+}
+.btn.hide {
+  color: grey;
+  background-color: white;
 }
