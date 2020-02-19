@@ -7,13 +7,20 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background-color: #ececec;
   overflow: hidden;
+  text-align: center;
 }
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+.header img {
+  position: absolute;
+  width: 30px;
+  left: 26px;
+  top: 15px;
+  border-radius: 6px;
+  box-shadow: -1px 0px 7px 1px rgba(0,0,0,0.2);
+}
 .list-container {
   overflow-y: auto;
   height: calc(100vh - 61px);
@@ -30,7 +37,6 @@ code {
   -webkit-perspective: 1000;
   perspective: 1000;
 }
-
 .product-container .name {
   font-size: 1em;
   color:white;
@@ -44,7 +50,6 @@ code {
 .product-container .back .name {
   color:grey;
 }
-
 .front, .back {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
@@ -62,13 +67,11 @@ code {
   width: 100%;
   height: 100%;
 }
-
 .front {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .back {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
@@ -77,12 +80,10 @@ code {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .product-container:hover .flipper, .product-container.open .flipper {
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
 }
-
 .search-input {
   padding: 10px 30px;
   background-color: #68e157;
@@ -133,7 +134,7 @@ code {
   display: block;
 }
 .panel-aside {
-  background-color: #E7FFD9;
+  background-color: #68e157;
   height: 100vh;
   width: 0;
   right: 0;
@@ -145,14 +146,19 @@ code {
 .panel-aside.show {
   width: 440px;
 }
-.panel-aside:not(.show) .panel-container {
-  /* display: none; */
+.panel-aside:not(.show) * {
   opacity: 0;
 }
-.panel-aside.show .panel-container {
+.panel-aside.show * {
   transition: opacity 0.8s ease;
   transition-delay: 0.5s;
   opacity: 1;
+}
+.panel-aside.show .panel-container {
+  margin: 20px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 6px;
 }
 .panel-aside .product-image-container {
   width: 100px;
@@ -175,4 +181,19 @@ code {
 }
 .authors p a:hover {
   color: grey;
+}
+.panel-aside .icon {
+  position: absolute;
+  font-size: 2em;
+  right: 10px;
+  top: 10px;
+  cursor: pointer;
+  color: white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  background-color: #68e157;
+}
+.search-input input {
+  content: ' '
 }

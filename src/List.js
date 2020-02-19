@@ -2,6 +2,7 @@ import React from 'react'
 import Aside from './Aside'
 import Product from './Product'
 import SearchInput, { createFilter } from 'react-search-input'
+import logo from './logo.png'
 
 const KEYS_TO_FILTERS = ['name', 'category', 'tags', 'alternatives.zeroWaste', 'alternatives.ecoFriendly']
 
@@ -65,11 +66,14 @@ class List extends React.Component {
 
     render() {
         const filteredProducts = this.state.products.filter(createFilter(this.state.searchTerm, KEYS_TO_FILTERS))
-        
+
         return (
             <div>
                 <div className={"main-container" + (this.state.product.selected ? " showPanel" : " ")} >
-                    <SearchInput className="search-input" data={this.state.products} onChange={this.searchUpdated} />
+                    <div className="header">
+                        <img src={logo} alt="logo"/>
+                        <SearchInput className="search-input" data={this.state.products} onChange={this.searchUpdated} />
+                    </div>
                     <div className="list-container" ref={this.setProductListRef}>
                         {filteredProducts.map((product, index) =>
                             <Product
@@ -87,7 +91,7 @@ class List extends React.Component {
                         <div className={"btn" + (this.state.isAllOpen ? " hide" : " ")} onClick={() => this.setOpen(this.state.isAllOpen)}>{this.showProperText()}</div>
                     </div>
                 </div>
-                <Aside product={this.state.product}/>
+                <Aside product={this.state.product} close={this.selectCurrentItem} />
             </div>
         )
     }
