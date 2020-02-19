@@ -194,5 +194,33 @@
         },
         "price": "low",
         "other": ""
+    },
+    {
+        "id": 15,
+        "name": "paper towel",
+        "image": "./images/towel.jpg",
+        "imageEco": "./images/cottontowel.jpg",
+        "category": "kitchen, house",
+        "tags": "cleaning, kitchen",
+        "alternatives": {
+            "zeroWaste": "",
+            "ecoFriendly": "towel"
+        },
+        "price": "low",
+        "other": ""
+    },
+    {
+        "id": 16,
+        "name": "toothbrush",
+        "image": "./images/toothbrush.jpg",
+        "imageEco": "./images/bamboobrush.jpg",
+        "category": "bathroom, personal care",
+        "tags": "bathroom, body",
+        "alternatives": {
+            "zeroWaste": "bamboo toothbrush",
+            "ecoFriendly": ""
+        },
+        "price": "low",
+        "other": ""
     }
 ]
